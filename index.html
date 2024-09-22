@@ -1,1218 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developer Resume</title>
+    <style>
+        /* General Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Richard Ryan</title>
-  <meta name="title" content="Richard Ryan">
-  <meta name="description" content="This is a photographer portfolio html template, made by codewithsadee.">
+        body {
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+        header {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+        }
 
-  <!-- 
-    - custom font link
-  -->
-  <link rel="stylesheet" href="./assets/font/font.css">
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/loading.svg">
-  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+        .sub-heading {
+            font-size: 18px;
+            color: #666;
+        }
 
+        .section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+        .section ul li {
+            padding: 8px 0;
+            font-size: 16px;
+            color: #444;
+        }
+
+        .section ul li span {
+            font-weight: bold;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #e4e4f5;
+            padding: 10px;
+            border-radius: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .contact {
+            margin-top: 10px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+
+        .project-title {
+            font-weight: bold;
+        }
+
+        .project a {
+            color: #007bff;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .project {
+                flex-direction: column;
+            }
+           
+           
+        }
+        
+      
+    </style>
 </head>
+<body>
 
-<body class="active" id="top">
-
-  <!-- 
-    -#PRELOADING
-  -->
-
-  <div class="loading" data-loading>
-    <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img">
-    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
-  </div>
-
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
     <div class="container">
+        <header>
+            
+            <h1>Vivek </h1>
+            <p class="sub-heading">Full Stack Developer</p>
+            <p class="contact">Email: <a href="kanwarvivek118@gmail.com">kanwarvivek118@gmail.com</a> | <a href="tel:7876367250" class="contact-link">7876367250 |</a> <a href="https://novivek.github.io/po/"> | Portfolio</a></p>
+        </header>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home">
-      </a>
+        <!-- Summary Section -->
+        <section class="section">
+            <h2>Summary</h2>
+            <p>
+                I am a passionate and dedicated Full Stack Developer who recently completed a full-stack development course at CBITSS, Chandigarh. I have hands-on experience with front-end technologies like HTML, CSS, BootStrap,TailwindJavaScript, and jQuery, as well as back-end development using Python and Django. I am eager to apply my skills and continue learning in a real-world environment, contributing to exciting projects and improving my technical abilities.
+            </p>
+        </section>
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
-      </button>
+        <!-- Skills Section -->
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>BootStrap</li>
+                <li>Tailwind</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>python</li>
+                <li>Django</li>
+                
+            </ul>
+        </section>
 
-      <nav class="navbar" data-navbar>
+        <!-- Experience Section -->
+        <section class="section">
+            <h2>Experience</h2>
+            <ul>
+             
+                <li>
+                    <span>Frontend Developer </span>
+                    <p>Designed and implemented interactive UI components using css, HTML, and CSS. </p>
+                </li>
+                <li>
+                    <span>back-end </span>
+                    <p>
+                        I have experience building backend systems using Python and Django,
+                         </p>
+                </li>
+            </ul>
+        </section>
 
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="Richard home" class="img">
-          </a>
+        <!-- Education Section -->
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><span>I am a final-year student at IGNOU with a strong foundation in full-stack development. I have completed a comprehensive course in full-stack development, focusing on technologies like HTML, CSS, JavaScript, Python, and Django. I have hands-on experience in building projects, and I am eager to apply my knowledge in a professional environment while continuing to grow as a developer.
 
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <span class="span one"></span>
-            <span class="span two"></span>
-          </button>
-        </div>
+                </span></li>
+            </ul>
+        </section>
 
-        <ul class="navbar-list">
+        <!-- Projects Section -->
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <span class="project-title">Portfolio Website</span>
+                <span><a href="https://novivek.github.io/po/">View my  website</a></span>
+                <span> <a href="https://novivek.github.io/po/"></a> <br> </a>my website link <h4>https://novivek.github.io/po/</h4> </span>
+                <span><img src="../texte.png" alt="" style="width: 190px;"> <br> </a> scane to view my website</span>
+                
+            </div>
+          
+        </section>
 
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#services" class="navbar-link" data-nav-link>Services</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
-          </li>
-
-        </ul>
-
-        <button class="login-btn">
-          <img src="./assets/images/user.svg" width="21" height="21" alt="user icon">
-
-          <span class="span">Login</span>
-        </button>
-
-        <p class="navbar-title">My Address</p>
-
-        <address class="navbar-text">
-          3287 Indiana Avenue, Waialua, Hawaii
-        </address>
-
-        <p class="navbar-text">
-          Urgent issue? call us at
-          <a href="tel:8085613846" class="contact-link">808-561-3846</a>
-        </p>
-
-      </nav>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
+        <footer>
+            <p>© 2024 vivek</p>
+        </footer>
     </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" id="home" aria-label="home">
-        <div class="container">
-
-          <img src="./assets/images/hero-banner.png" width="322" height="322" alt="" class="hero-banner">
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title">Richard Ryan</h1>
-
-            <div class="wrapper h2">
-              <strong class="strong" data-letter-effect>Photographer</strong>
-              <strong class="strong" data-letter-effect>Shutterbug</strong>
-              <strong class="strong" data-letter-effect>Cameraman</strong>
-              <strong class="strong" data-letter-effect>Pacific Portraits</strong>
-            </div>
-
-            <p class="hero-text">15+ Years Of Experience</p>
-
-          </div>
-
-        </div>
-
-        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
-
-      </section>
-
-
-
-
-
-      <!-- 
-        - #GALLERY
-      -->
-
-      <section class="section gallery" id="gallery">
-        <div class="container">
-
-          <ul class="gallery-list">
-
-            <li class="gallery-item" data-reveal>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-1.jpg" width="450" height="625" loading="lazy" alt="The Drunken"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">The Drunken</a>
-                  </h3>
-
-                  <span class="card-tag">Food, Event</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-2.jpg" width="450" height="625" loading="lazy"
-                    alt="Lettuce Entertain" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Lettuce Entertain</a>
-                  </h3>
-
-                  <span class="card-tag">Landscape</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-            </li>
-
-            <li class="gallery-item" data-reveal>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-3.jpg" width="450" height="625" loading="lazy" alt="Leaping Lizard"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Leaping Lizard</a>
-                  </h3>
-
-                  <span class="card-tag">Model, Fashion</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-4.jpg" width="450" height="625" loading="lazy" alt="Juan More Taco"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Juan More Taco</a>
-                  </h3>
-
-                  <span class="card-tag">Architecture, Event</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-            </li>
-
-            <li class="gallery-item" data-reveal>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-5.jpg" width="450" height="625" loading="lazy" alt="Goldilox Bagels"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Goldilox Bagels</a>
-                  </h3>
-
-                  <span class="card-tag">People, Film</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-6.jpg" width="450" height="625" loading="lazy" alt="Cookie Monstah"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Cookie Monstah</a>
-                  </h3>
-
-                  <span class="card-tag">Wedding, Event</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-            </li>
-
-            <li class="gallery-item" data-reveal>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-7.jpg" width="450" height="625" loading="lazy"
-                    alt="Divine Pastabilities" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">Divine Pastabilities</a>
-                  </h3>
-
-                  <span class="card-tag">Wedding, Model</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-              <div class="gallery-card">
-
-                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
-                  <img src="./assets/images/gallery-8.jpg" width="450" height="625" loading="lazy"
-                    alt="The Lockhart Bar" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h6">
-                    <a href="#" class="card-title">The Lockhart Bar</a>
-                  </h3>
-
-                  <span class="card-tag">Health & Wellnes</span>
-                </div>
-
-                <a href="#" class="btn-icon">
-                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
-                    alt="arrow-forward icon">
-                </a>
-
-              </div>
-
-            </li>
-
-          </ul>
-
-          <a href="#service" class="scroll-down">
-            <img src="./assets/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
-          </a>
-
-          <img src="./assets/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" class="shape">
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #CATEGORY
-      -->
-
-      <section class="section category" aria-label="photography category">
-        <div class="container">
-
-          <ul class="category-list">
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Landscape,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-1.jpg" width="600" height="690" loading="lazy" alt="Landscape"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Model,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Model"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Street,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-3.jpg" width="600" height="690" loading="lazy" alt="Street"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Product,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-4.jpg" width="600" height="690" loading="lazy" alt="Product"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Fashion,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Fashion"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Film,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-5.jpg" width="600" height="690" loading="lazy" alt="Film"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Architecture,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-6.jpg" width="600" height="690" loading="lazy" alt="Architecture"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Event,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Wedding,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-8.jpg" width="600" height="690" loading="lazy" alt="Wedding"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">People,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-9.jpg" width="600" height="690" loading="lazy" alt="People"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Event,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Food,</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-10.jpg" width="600" height="690" loading="lazy" alt="Food"
-                    class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-            <li class="category-item" data-reveal>
-              <a href="#" class="category-card">
-
-                <h3 class="h4 card-title">Health & Wellnes.</h3>
-
-                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
-                  <img src="./assets/images/category-11.jpg" width="600" height="690" loading="lazy"
-                    alt="Health & Wellnes" class="img-cover">
-                </figure>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about" aria-label="about me">
-        <div class="container">
-
-          <div class="about-content">
-
-            <h2 class="h2 section-title" data-reveal="right">
-              Hi. I’m <br>
-              Richard Ryan
-            </h2>
-
-            <div class="wrapper has-before" data-reveal="right">
-
-              <p class="section-text">
-                A passionate
-                <em class="em">photograher</em>
-                who are working in this field for
-                <em class="em">last 10 years.</em>
-                I’m ready to give you my best.
-              </p>
-
-              <img src="./assets/images/signature.png" width="151" height="92" loading="lazy" alt="signature"
-                class="img">
-
-            </div>
-
-          </div>
-
-          <figure class="about-banner" data-reveal="left">
-
-            <div class="img-holder has-before" style="--width: 512; --height: 684;">
-              <img src="./assets/images/about-banner.jpg" width="512" height="684" loading="lazy" alt="Riachard Ryan"
-                class="img-cover">
-            </div>
-
-            <img src="./assets/images/about-shape-1.png" width="178" height="178" loading="lazy" alt=""
-              class="shape shape-1">
-
-            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt=""
-              class="shape shape-2">
-
-          </figure>
-
-          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
-            class="shape shape-3">
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="section service" id="service" aria-labelledby="service-lable">
-
-        <p class="section-subtitle container" id="service-lable">My Services</p>
-
-        <ul class="service-list">
-
-          <li data-reveal>
-            <div class="service-card container">
-
-              <img src="./assets/images/service-1.jpg" width="340" height="380" loading="lazy" alt="Wedding Photography"
-                class="img">
-
-              <div>
-                <h3 class="h3 card-title">Wedding Photography</h3>
-
-                <p class="card-subtitle">
-                  Aut temporibus qui vero.
-                </p>
-              </div>
-
-              <a href="#" class="btn-icon" aria-label="See more">
-                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                  <path d="M0 10H41" stroke="white" stroke-width="2" />
-                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
-                </svg>
-              </a>
-
-            </div>
-          </li>
-
-          <li data-reveal>
-            <div class="service-card container">
-
-              <img src="./assets/images/service-2.jpg" width="340" height="380" loading="lazy" alt="Event Organiser"
-                class="img">
-
-              <div>
-                <h3 class="h3 card-title">Event Organiser</h3>
-
-                <p class="card-subtitle">
-                  Nobis, magni modi ipsa culpa.
-                </p>
-              </div>
-
-              <a href="#" class="btn-icon" aria-label="See more">
-                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                  <path d="M0 10H41" stroke="white" stroke-width="2" />
-                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
-                </svg>
-              </a>
-
-            </div>
-          </li>
-
-          <li data-reveal>
-            <div class="service-card container">
-
-              <img src="./assets/images/service-3.jpg" width="340" height="380" loading="lazy" alt="Product Marketing"
-                class="img">
-
-              <div>
-                <h3 class="h3 card-title">Product Marketing</h3>
-
-                <p class="card-subtitle">
-                  Tenetur porro repellendus!
-                </p>
-              </div>
-
-              <a href="#" class="btn-icon" aria-label="See more">
-                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                  <path d="M0 10H41" stroke="white" stroke-width="2" />
-                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
-                </svg>
-              </a>
-
-            </div>
-          </li>
-
-          <li data-reveal>
-            <div class="service-card container">
-
-              <img src="./assets/images/service-4.jpg" width="340" height="380" loading="lazy" alt="Videography"
-                class="img">
-
-              <div>
-                <h3 class="h3 card-title">Videography</h3>
-
-                <p class="card-subtitle">
-                  Amet consectetur adipisicing elit
-                </p>
-              </div>
-
-              <a href="#" class="btn-icon" aria-label="See more">
-                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                  <path d="M0 10H41" stroke="white" stroke-width="2" />
-                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
-                </svg>
-              </a>
-
-            </div>
-          </li>
-
-        </ul>
-
-      </section>
-
-
-
-
-
-      <!-- 
-        - #PORTFOLIO
-      -->
-
-      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
-        <div class="container">
-
-          <div class="portfolio-list">
-
-            <div class="wrapper">
-
-              <h2 class="h2 section-title" id="portfolio-label" data-reveal>My Recent Work.</h2>
-
-              <div class="portfolio-card" data-reveal>
-
-                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
-                  <img src="./assets/images/portfolio-1.jpg" width="700" height="605" loading="lazy" alt="Shoe Promo"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4">
-                    <a href="#" class="card-title">Shoe Promo</a>
-                  </h3>
-
-                  <p class="card-tag">Product</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                    <path d="M0 10H41" stroke="black" stroke-width="2" />
-                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
-                  </svg>
-                </a>
-
-              </div>
-
-              <div class="portfolio-card" data-reveal>
-
-                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
-                  <img src="./assets/images/portfolio-2.jpg" width="700" height="1091" loading="lazy" alt="Wedding Shot"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4">
-                    <a href="#" class="card-title">Wedding Shot</a>
-                  </h3>
-
-                  <p class="card-tag">Wedding</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                    <path d="M0 10H41" stroke="black" stroke-width="2" />
-                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
-                  </svg>
-                </a>
-
-              </div>
-
-            </div>
-
-            <div class="wrapper">
-
-              <div class="portfolio-card" data-reveal>
-
-                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;">
-                  <img src="./assets/images/portfolio-3.jpg" width="700" height="1000" loading="lazy" alt="Fashion Show"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4">
-                    <a href="#" class="card-title">Fashion Show</a>
-                  </h3>
-
-                  <p class="card-tag">Fashion, Model</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                    <path d="M0 10H41" stroke="black" stroke-width="2" />
-                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
-                  </svg>
-                </a>
-
-              </div>
-
-              <div class="portfolio-card" data-reveal>
-
-                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 850;">
-                  <img src="./assets/images/portfolio-4.jpg" width="700" height="850" loading="lazy" alt="Jumbo Barger"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4">
-                    <a href="#" class="card-title">Jumbo Barger</a>
-                  </h3>
-
-                  <p class="card-tag">Food</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
-                    <path d="M0 10H41" stroke="black" stroke-width="2" />
-                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
-                  </svg>
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <img src="./assets/images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="footer-top section" id="contact">
-      <div class="container">
-
-        <p class="section-subtitle" data-reveal>Contact Us</p>
-
-        <h2 class="h2 section-title" data-reveal>
-          Work inquiry, Job oportunities? Send Message.
-        </h2>
-
-        <a href="#" class="btn-icon" data-reveal>
-          <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
-        </a>
-
-        <img src="./assets/images/footer-1.jpg" width="159" height="176" loading="lazy" alt="photography"
-          class="abs-img abs-img-1" data-reveal>
-
-        <img src="./assets/images/footer-2.jpg" width="265" height="275" loading="lazy" alt="photography"
-          class="abs-img abs-img-2" data-reveal>
-
-        <img src="./assets/images/footer-3.jpg" width="303" height="272" loading="lazy" alt="photography"
-          class="abs-img abs-img-3" data-reveal>
-
-        <img src="./assets/images/footer-4.jpg" width="175" height="175" loading="lazy" alt="photography"
-          class="abs-img abs-img-4" data-reveal>
-
-        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="40" height="40" loading="lazy" alt="Richard home">
-        </a>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">Fa.</a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">Insta.</a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">Tw.</a>
-          </li>
-
-        </ul>
-
-        <p class="copyright">Made with love</p>
-
-      </div>
-    </div>
-
-    <div class="footer-bg has-before">
-      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
-        class="img-cover">
-    </div>
-
-  </footer>
-
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
-
-
-
-
-
-  <!-- 
-    - #CUSTOM CURSOR
-  -->
-
-  <div class="cursor" data-cursor></div>
-
-
-
-
-<script>
-  'use strict';
-
-
-
-// add Event on multiple elment
-
-const addEventOnElements = function (elements, eventType, callback) {
-  for (let i = 0; i < elements.length; i++) {
-    elements[i].addEventListener(eventType, callback);
-  }
-}
-
-
-
-// PRELOADING
-
-const loadingElement = document.querySelector("[data-loading]");
-
-window.addEventListener("load", function () {
-  loadingElement.classList.add("loaded");
-  document.body.classList.remove("active");
-});
-
-
-
-// MOBILE NAV TOGGLE
-
-const [navTogglers, navLinks, navbar, overlay] = [
-  document.querySelectorAll("[data-nav-toggler]"),
-  document.querySelectorAll("[data-nav-link]"),
-  document.querySelector("[data-navbar]"),
-  document.querySelector("[data-overlay]")
-];
-
-const toggleNav = function () {
-  navbar.classList.toggle("active");
-  overlay.classList.toggle("active");
-  document.body.classList.toggle("active");
-}
-
-addEventOnElements(navTogglers, "click", toggleNav);
-
-const closeNav = function () {
-  navbar.classList.remove("active");
-  overlay.classList.remove("active");
-  document.body.classList.remove("active");
-}
-
-addEventOnElements(navLinks, "click", closeNav);
-
-
-
-// HEADER
-
-const header = document.querySelector("[data-header]");
-
-const activeElementOnScroll = function () {
-  if (window.scrollY > 50) {
-    header.classList.add("active");
-  } else {
-    header.classList.remove("active");
-  }
-}
-
-window.addEventListener("scroll", activeElementOnScroll);
-
-
-
-/**
- * TEXT ANIMATION EFFECT FOR HERO SECTION
- */
-
-const letterBoxes = document.querySelectorAll("[data-letter-effect]");
-
-let activeLetterBoxIndex = 0;
-let lastActiveLetterBoxIndex = 0;
-let totalLetterBoxDelay = 0;
-
-const setLetterEffect = function () {
-
-  // loop through all letter boxes
-  for (let i = 0; i < letterBoxes.length; i++) {
-    // set initial animation delay
-    let letterAnimationDelay = 0;
-
-    // get all character from the current letter box
-    const letters = letterBoxes[i].textContent.trim();
-    // remove all character from the current letter box
-    letterBoxes[i].textContent = "";
-
-    // loop through all letters
-    for (let j = 0; j < letters.length; j++) {
-
-      // create a span
-      const span = document.createElement("span");
-
-      // set animation delay on span
-      span.style.animationDelay = `${letterAnimationDelay}s`;
-
-      // set the "in" class on the span, if current letter box is active
-      // otherwise class is "out"
-      if (i === activeLetterBoxIndex) {
-        span.classList.add("in");
-      } else {
-        span.classList.add("out");
-      }
-
-      // pass current letter into span
-      span.textContent = letters[j];
-
-      // add space class on span, when current letter contain space
-      if (letters[j] === " ") span.classList.add("space");
-
-      // pass the span on current letter box
-      letterBoxes[i].appendChild(span);
-
-      // skip letterAnimationDelay when loop is in the last index
-      if (j >= letters.length - 1) break;
-      // otherwise update
-      letterAnimationDelay += 0.05;
-
-    }
-
-    // get total delay of active letter box
-    if (i === activeLetterBoxIndex) {
-      totalLetterBoxDelay = Number(letterAnimationDelay.toFixed(2));
-    }
-
-    // add active class on last active letter box
-    if (i === lastActiveLetterBoxIndex) {
-      letterBoxes[i].classList.add("active");
-    } else {
-      letterBoxes[i].classList.remove("active");
-    }
-
-  }
-
-  setTimeout(function () {
-    lastActiveLetterBoxIndex = activeLetterBoxIndex;
-
-    // update activeLetterBoxIndex based on total letter boxes
-    activeLetterBoxIndex >= letterBoxes.length - 1 ? activeLetterBoxIndex = 0 : activeLetterBoxIndex++;
-
-    setLetterEffect();
-  }, (totalLetterBoxDelay * 1000) + 3000);
-
-}
-
-// call the letter effect function after window loaded
-window.addEventListener("load", setLetterEffect);
-
-
-
-/**
- * BACK TO TOP BUTTON
- */
-
-const backTopBtn = document.querySelector("[data-back-top-btn]");
-
-window.addEventListener("scroll", function () {
-  const bodyHeight = document.body.scrollHeight;
-  const windowHeight = window.innerHeight;
-  const scrollEndPos = bodyHeight - windowHeight;
-  const totalScrollPercent = (window.scrollY / scrollEndPos) * 100;
-
-  backTopBtn.textContent = `${totalScrollPercent.toFixed(0)}%`;
-
-  // visible back top btn when scrolled 5% of the page
-  if (totalScrollPercent > 5) {
-    backTopBtn.classList.add("show");
-  } else {
-    backTopBtn.classList.remove("show");
-  }
-});
-
-
-
-/**
- * SCROLL REVEAL
- */
-
-const revealElements = document.querySelectorAll("[data-reveal]");
-
-const scrollReveal = function () {
-  for (let i = 0; i < revealElements.length; i++) {
-    const elementIsInScreen = revealElements[i].getBoundingClientRect().top < window.innerHeight / 1.15;
-
-    if (elementIsInScreen) {
-      revealElements[i].classList.add("revealed");
-    } else {
-      revealElements[i].classList.remove("revealed");
-    }
-  }
-}
-
-window.addEventListener("scroll", scrollReveal);
-
-scrollReveal();
-
-
-
-/**
- * CUSTOM CURSOR
- */
-
-const cursor = document.querySelector("[data-cursor]");
-const anchorElements = document.querySelectorAll("a");
-const buttons = document.querySelectorAll("button");
-
-// change cursorElement position based on cursor move
-document.body.addEventListener("mousemove", function (event) {
-  setTimeout(function () {
-    cursor.style.top = `${event.clientY}px`;
-    cursor.style.left = `${event.clientX}px`;
-  }, 100);
-});
-
-// add cursor hoverd class
-const hoverActive = function () { cursor.classList.add("hovered"); }
-
-// remove cursor hovered class
-const hoverDeactive = function () { cursor.classList.remove("hovered"); }
-
-// add hover effect on cursor, when hover on any button or hyperlink
-addEventOnElements(anchorElements, "mouseover", hoverActive);
-addEventOnElements(anchorElements, "mouseout", hoverDeactive);
-addEventOnElements(buttons, "mouseover", hoverActive);
-addEventOnElements(buttons, "mouseout", hoverDeactive);
-
-// add disabled class on cursorElement, when mouse out of body
-document.body.addEventListener("mouseout", function () {
-  cursor.classList.add("disabled");
-});
-
-// remove diabled class on cursorElement, when mouse in the body
-document.body.addEventListener("mouseover", function () {
-  cursor.classList.remove("disabled");
-});
-</script>
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
 </body>
-
 </html>
